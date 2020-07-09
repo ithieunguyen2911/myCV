@@ -1,0 +1,79 @@
+#myName p{
+    color: var(--text-title-color);
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+.titleName{
+    color: var(--white-color);
+    background-color: var(--text-title-color);
+    padding-left: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+#myInfo{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:740px){
+    #myInfo{
+        flex-direction: row;
+    }
+}
+   
+#myInfoDetail{
+    width: 800px;
+    
+    margin-right: 50px;
+}
+#myInfoImage{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border: solid 5px cornflowerblue;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+}
+
+table{
+    color: var(--text-title-color);
+    font-size: 1.8rem;
+    font-weight: bolder;
+    height: 250px;
+}
+
+/* Start CSS Kỹ Năng */
+.myKnowledge{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+@media(min-width:740px){
+    .myKnowledge{
+        flex-direction: row;
+    }
+}
+
+#myEducation{
+    width: 590px;
+    font-size: 1.6rem;
+    margin-right: 20px;
+    
+}
+
+#mySoftSkill{
+    flex:1;
+    font-size: 1.6rem;
+
+}
+/* End CSS Kỹ Năng */
+
+#footer p{
+    color: var(--text-title-color);
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
